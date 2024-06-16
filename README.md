@@ -31,7 +31,7 @@ Pychometrics is a python library and requires latest python library (tested in p
 Install the library with the dependencies through github or PyPI.
 
 ```sh
-pip install git+https://github.com/jkbr/httpie.git#egg=httpie
+pip install -U git+https://github.com/Shiva-DS24/pychometrics.git@main
 ```
 After installation, prepare a score data file as per the template provided here:. Please note that this is similar to Moodle quiz export responses file and therefore that file can be used as it is. 
 
