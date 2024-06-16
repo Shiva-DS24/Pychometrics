@@ -37,7 +37,7 @@ pip install -U git+https://github.com/Shiva-DS24/pychometrics.git@main
 # from jupyter: !pip install pychometrics==0.1.4
 
 ```
-After installation, prepare a score data file as per the template provided here:. Please note that this is similar to Moodle quiz export responses file and therefore that file can be used as it is. 
+After installation, prepare a score data file as per the template provided [here](https://github.com/Shiva-DS24/pychometrics/blob/main/data.csv). Please note that this is similar to Moodle quiz export responses file and therefore that file can be used as it is. If assessments are conducted outside any Learning Management System, please prepare a csv file having column header Question No or Name with '/Max Marks'. Please refer the sample data file provided [here](https://github.com/Shiva-DS24/pychometrics/blob/main/data.csv).
 
 Import the library
 ```sh
