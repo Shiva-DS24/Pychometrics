@@ -55,6 +55,6 @@ If you would like to contribute to this project, you can fork the repository and
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ## Support
-If you have any questions, issues, or suggestions regarding this package, feel free to create issue [here](ttps://github.com/Shiva-DS24/pychometrics/issues)
+If you have any questions, issues, or suggestions regarding this package, feel free to create issue [here](https://github.com/Shiva-DS24/pychometrics/issues)
 
 
