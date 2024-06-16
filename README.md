@@ -32,6 +32,10 @@ Install the library with the dependencies through github or PyPI.
 
 ```sh
 pip install -U git+https://github.com/Shiva-DS24/pychometrics.git@main
+
+# or from pyPI: pip install pychometrics==0.1.4
+# from jupyter: !pip install pychometrics==0.1.4
+
 ```
 After installation, prepare a score data file as per the template provided here:. Please note that this is similar to Moodle quiz export responses file and therefore that file can be used as it is. 
 
