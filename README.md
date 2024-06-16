@@ -37,8 +37,7 @@ After installation, prepare a score data file as per the template provided here:
 
 Import the library
 ```sh
-from analysis import AssessmentAnalysis
-from report import generate_pdf_report
+from pychometrics import AssessmentAnalysis, generate_pdf_report
 ```
 Then read the data file and run the analysis
 ```sh
