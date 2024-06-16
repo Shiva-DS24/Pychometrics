@@ -141,7 +141,7 @@ class AssessmentAnalysis:
         self.item_analysis = item_analysis
 
     def generate_report(self):
-        from report import generate_pdf_report
+        from .report import generate_pdf_report
         generate_pdf_report(self.marks_df, self.total_max_marks, self.item_analysis, self.stats)
 
     def run_analysis(self):
