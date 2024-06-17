@@ -50,6 +50,20 @@ analysis = AssessmentAnalysis('data.csv')
 # run the analysis
 analysis.run_analysis()
 ```
+
+More functions: 
+
+1.	If the data file is in the working directory and named as ‘data.csv’, data can be read using: analysis = read_data('data.csv'). once read the message will indicate the number of students and items (questions) identified along with the missing values if any. 
+2.	To get information about the loaded data at any time, we can run analysis.info().
+3.	The descriptive statistics of the entire test can be obtained by running analysis.calc_desc().
+4.	The skewness and kurtosis can be calculating by running analysis.calc_skew() and analysis.calc_kurt() respectively.
+5.	The cronbach’s alpha can be obtained by running analysis. calc_alpha().
+6.	The Standard Error of Measurement (SEM) can be calculated using analysis.sem().
+7.	Calculation of FIs and DIs for each item can be obtained using analysis. calc_fi() and analysis.calc_di() respectively. Further to this analysis.indices_export(csv) export the data as a csv file in the working directory. 
+8.	A comprehensive pdf report can be generated using analysis.export_report() command.
+9.	To obtain help about this library: analysis.help(), this will display available functions and their syntax.
+
+
 The generated pdf file will be available in the working directory.
 
 ## Contributing
