@@ -53,7 +53,7 @@ analysis.run_analysis()
 
 More functions: 
 
-1.	If the data file is in the working directory and named as ‘data.csv’, data can be read using: analysis = read_data('data.csv'). once read the message will indicate the number of students and items (questions) identified along with the missing values if any. 
+1.	If the data file is in the working directory and named as ‘data.csv’, data can be read using: analysis = AssessmentAnalysis('data.csv'). once read the message will indicate the number of students and items (questions) identified along with the missing values if any. 
 2.	To get information about the loaded data at any time, we can run analysis.info().
 3.	The descriptive statistics of the entire test can be obtained by running analysis.calc_desc().
 4.	The skewness and kurtosis can be calculating by running analysis.calc_skew() and analysis.calc_kurt() respectively.
