@@ -1,0 +1,19 @@
+# This CITATION.cff file was generated with cffinit.
+
+
+cff-version: 1.2.0
+title: pychometrics
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Sivakumar
+    name-particle: Manickam
+    email: doctsh@gmail.com
+    orcid: 'https://orcid.org/0009-0006-5018-9384'
+keywords:
+  - Psychometrics
+  - Item Analysis
+  - Test Reliability
+license: MIT
