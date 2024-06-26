@@ -63,6 +63,8 @@ More functions:
 8.	A comprehensive pdf report can be generated using `analysis.export_report()` command.
 9.	To obtain help about this library: `analysis.help()`, this will display available functions and their syntax.
 
+## Online Demo
+A working online demo is availabele <a href= "https://apps.odc.edu.om/pychometrics/">here</a>
 
 The generated pdf file will be available in the working directory.
 
