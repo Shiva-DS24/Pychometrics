@@ -24,6 +24,8 @@ List of dependencies required to use your package:
 - numpy~=1.26.4
 - scipy~=1.13.1
 
+## Online Demo
+A minimal working online demo is available <a href= "https://apps.odc.edu.om/pychometrics/">here</a>
 
 ## Installation
 Pychometrics is a python library and requires latest python library (tested in python 3.11).
@@ -65,8 +67,7 @@ More functions:
 
     The generated pdf file will be available in the working directory.
 
-## Online Demo
-A minimal working online demo is available <a href= "https://apps.odc.edu.om/pychometrics/">here</a>
+
 
 
 
